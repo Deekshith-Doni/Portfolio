@@ -59,7 +59,7 @@ const Contact = () => {
     {
       name: 'Instagram',
       icon: Instagram,
-      url: 'https://www.instagram.com/deekshith_doni?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+      url: 'https://www.instagram.com/deekshith_doni?igsh=MWxneWY1d2Y1am92NQ==',
       color: 'hover:text-pink-500',
     },
     {
