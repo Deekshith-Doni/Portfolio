@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Instagram, Send } from 'lucide-react'
+import { Mail, Instagram, Send, MessageCircle, Briefcase } from 'lucide-react'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
@@ -61,6 +61,24 @@ const Contact = () => {
       icon: Instagram,
       url: 'https://www.instagram.com/deekshith_doni/',
       color: 'hover:text-pink-500',
+    },
+    {
+      name: 'WhatsApp',
+      icon: MessageCircle,
+      url: '#', // TODO: Add your WhatsApp link
+      color: 'hover:text-green-500',
+    },
+    {
+      name: 'Fiverr',
+      icon: Briefcase,
+      url: '#', // TODO: Add your Fiverr profile link
+      color: 'hover:text-green-400',
+    },
+    {
+      name: 'Upwork',
+      icon: Briefcase,
+      url: '#', // TODO: Add your Upwork profile link
+      color: 'hover:text-blue-500',
     },
     {
       name: 'Email',
@@ -225,7 +243,7 @@ const Contact = () => {
         transition={{ delay: 1 }}
         className="mt-20 pt-8 border-t border-electric-lime/20 text-center text-gray-500"
       >
-        <p>&copy; 2026 Video Editor & Graphic Designer. Crafted with passion.</p>
+        <p>&copy; 2026 Doni edits. All rights reserved. Freelance Video Editor</p>
       </motion.div>
     </section>
   )

@@ -90,11 +90,11 @@ const GraphicsSection = () => {
       >
         <h2 className="text-4xl md:text-6xl font-black mb-4">
           <span className="bg-gradient-to-r from-neon-purple to-electric-lime bg-clip-text text-transparent">
-            GRAPHICS & THUMBNAILS
+            GRAPHICS & DESIGNS
           </span>
         </h2>
-        <p className="text-gray-400 text-lg">
-          Eye-catching designs that stop the scroll
+        <p className="text-gray-400 text-lg md:text-xl">
+          Eye-catching thumbnails and graphics that drive engagement
         </p>
       </motion.div>
 

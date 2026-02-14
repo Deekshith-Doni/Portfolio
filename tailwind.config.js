@@ -14,6 +14,9 @@ export default {
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       animation: {
         'marquee': 'marquee 30s linear infinite',
         'grain': 'grain 8s steps(10) infinite',

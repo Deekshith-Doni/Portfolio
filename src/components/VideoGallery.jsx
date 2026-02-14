@@ -143,7 +143,7 @@ const VideoGallery = () => {
 
   return (
     <>
-      <section id="videos" className="py-20 px-6 max-w-7xl mx-auto">
+      <section id="portfolio" className="py-20 px-6 max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -152,11 +152,11 @@ const VideoGallery = () => {
         >
           <h2 className="text-4xl md:text-6xl font-black mb-4">
             <span className="bg-gradient-to-r from-electric-lime to-neon-purple bg-clip-text text-transparent">
-              VIDEO PORTFOLIO
+              VIDEO EDITS
             </span>
           </h2>
-          <p className="text-gray-400 text-lg">
-            Hover over the cards to preview the magic ✨
+          <p className="text-gray-400 text-lg md:text-xl">
+            Hover over the cards to preview my recent video projects ✨
           </p>
         </motion.div>
 
